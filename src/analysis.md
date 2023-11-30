@@ -155,7 +155,7 @@ The second attempt at optimizing the model achieves an accuracy of around 72.4% 
 
 **3. Results** 
  <img src="images/tuner_eval.png" alt="Initial Model Evaluation" width="900"/> 
-The third attempt at optimizing the model achieves an accuracy of around 71.6% and a loss of about 0.56. The third optimization does not reach the target accuracy of 75%, and does not suggest that the Keras Tuner has found a better architecture than the previous attempts. 
+The third attempt at optimizing the model achieves an accuracy of around 72% and a loss of about 0.57. The third optimization does not reach the target accuracy of 75%, and does not suggest that the Keras Tuner has found a better architecture than the previous attempts. 
 <br> 
 <br>
 
