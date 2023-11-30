@@ -1,6 +1,6 @@
 # deep-learning-challenge
 
-A project that uses Pyhton libraries: Pandas, SciKit-Learn, TensorFlow, and Keras Tuner to create a binary classifier using a deep learning neural network.
+A project that uses Python libraries: Pandas, SciKit-Learn, TensorFlow, and Keras Tuner to create a binary classifier using a deep learning neural network.
  
 <br>
 <br>
@@ -19,13 +19,13 @@ A project that uses Pyhton libraries: Pandas, SciKit-Learn, TensorFlow, and Kera
 <br>
 
 ### Overview  
-The purpose of this project is to use a deep learning neural network to create a binary classifier that can predict, with 75% or greater accuracy, whether applicants will be successful if funded by Alphabet Soup. The dataset contains more than 34,000 organizations that have received funding from Alphabet Soup in the past. The dataset contains information about each organization such as the type of organization, the use of the funding, the amount of funding, and the success of the organization.
+The purpose of this project is to use a deep learning neural network to create a binary classifier that can predict, with 75% or greater accuracy, whether applicants will be successful if funded by nonprofit organization. The dataset contains more than 34,000 organizations that have received funding from the organization in the past. The dataset contains information about each organization such as the type of organization, the use of the funding, the amount of funding, and the success of the organization.
 
 The `src` folder in this repository contains the `analysis.md` file which details the project's key features, the steps taken to complete the project, and the results. The `analysis.md` file also has a summary of the results and recommendations for next steps to optimize the binary classifier model. 
 <br>
 
 ### Requirements & Dependencies
-This project uses the following software and Python libraries:    
+This project uses the following Python libraries:    
 
 Python (version 3.10.9)
 
@@ -43,7 +43,7 @@ Keras Tuner (version: 1.4.6)
 
 ### Usage
 1. Ensure that you have all the necessary dependencies and files/scripts. 
-    - Cloud computing resources such as Google Colab or Amazon SageMaker are recommended for running the code in the Jupyter Notebook.
+    - Cloud computing resources such as Google Colab or Amazon SageMaker are recommended for running the code.
 2. Load the project files in an appropriate code editor such as Jupyter Notebook. 
 3. Run the script in the Jupyter Notebook step by step
 to execute the code and visualize the results appropriately.       
