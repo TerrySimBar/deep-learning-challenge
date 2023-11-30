@@ -43,7 +43,7 @@ Keras Tuner (version: 1.4.6)
 
 ### Usage
 1. Ensure that you have all the necessary dependencies and files/scripts. 
-    - Cloud computing resources such as Google Colab or Amazon SageMaker are recommended for running the code.
+    - Cloud computing resources such as Google Colab is recommended for running the code.
 2. Load the project files in an appropriate code editor such as Jupyter Notebook. 
 3. Run the script in the Jupyter Notebook step by step
 to execute the code and visualize the results appropriately.       
