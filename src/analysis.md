@@ -8,7 +8,7 @@ The project follows a typical machine learning workflow, including data preproce
 <br> 
 <br>
 
-#### Initial Model
+### Initial Model
 
 **1. Data Preprocessing**
 
@@ -48,7 +48,7 @@ The model achieves an accuracy of around 72.5% and a loss of about 0.56. The mod
 <br>
 <br>
 
-#### Optimization Attempt 1  
+### Optimization Attempt 1  
 
 - REDUCE THE NUMBER OF COLUMNS BY REBINNING THE `CLASSIFICATION` AND `APPLICATION_TYPE` COLUMNS WITH GREATER THRESHOLDS
 - USE DIFFERENT ACTIVATION FUNCTIONS FOR THE INPUT AND HIDDEN LAYERS
@@ -74,7 +74,7 @@ The model achieves an accuracy of around 72.5% and a loss of about 0.56. The mod
 
 **2. Model Design**
 
-- A Sequential model is define using TensorFlow's Keras API.
+- A Sequential model is defined using TensorFlow's Keras API.
 - The planned optimization steps listed above are implemented in the model design.
 - The model is compiled using `binary_crossentropy` as the loss function, `adam` as the optimizer, and `accuracy` as the metric.     
 - The model is trained with the scaled training and target variables for 100 epochs.
@@ -90,7 +90,7 @@ The first attempt at optimizing the model also achieves an accuracy of around 72
 <br>
 <br>
 
-#### Optimization Attempt 2  
+### Optimization Attempt 2  
 
 - INCREASE THE NUMBER OF NEURONS TO 200 IN ALL THE NON-OUTPUT LAYERS 
 - USE `relu` ACTIVATION FUNCTION FOR ALL NON-OUTPUT LAYERS
@@ -105,7 +105,7 @@ The first attempt at optimizing the model also achieves an accuracy of around 72
 
 **2. Model Design**
 
-- A Sequential model is define using TensorFlow's Keras API.
+- A Sequential model is defined using TensorFlow's Keras API.
 - The planned optimization steps are implemented.
 - The model is compiled, trained, and evaluated using the same steps as the previous optimization attempt.  
 <br >
@@ -116,7 +116,7 @@ The second attempt at optimizing the model achieves an accuracy of around 72.4% 
 <br> 
 <br>
 
-#### Optimization Attempt 3  
+### Optimization Attempt 3  
 
 - USE KERAS TUNER `RandomSearch` TO FIND THE OPTIMAL ARCHITECTURE FOR THE MODEL  
 - USE THE KERAS TUNER RECOMMENDATIONS TO BUILD AND TRAIN THE MODEL
@@ -142,13 +142,13 @@ The second attempt at optimizing the model achieves an accuracy of around 72.4% 
 <br>
 
 **Tuner Results**
- <img src="images/tuner_rec.png" alt="Initial Model Evaluation" width="300"/> 
+<img src="images/tuner_rec.png" alt="Initial Model Evaluation" width="300"/> 
 <br>
 <br>
 
 **3. Model Design**
 
-- A Sequential model is define using TensorFlow's Keras API.
+- A Sequential model is defined using TensorFlow's Keras API.
 - The architecture recommended by the Keras Tuner is implemented.
 - The model is compiled, trained on 100 epochs, and evaluated using the same steps as the previous optimization attempts. 
 <br>
@@ -160,7 +160,7 @@ The third attempt at optimizing the model achieves an accuracy of around 72% and
 <br> 
 <br>
 
-#### Summary
+### Summary
 Despite various attempts to optimize the neural network model, it does not reach the target accuracy of 75%. The dataset or the model architecture may pose challenges that prevent achieving higher accuracy. It's also possible that other machine learning algorithms, such as logistic regression or ensemble methods, might perform better. 
 
 Considering the challenges faced with the deep learning model, it is recommended to explore alternative machine learning algorithms. Logistic regression, random forest, support vector machines, or gradient boosting classifiers could be more effective for further experimentation. Additionally, feature engineering, such as creating new meaningful features, removing features that are not useful, and/or attending to outliers, might provide insights into improving model performance.
