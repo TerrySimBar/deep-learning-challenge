@@ -7,6 +7,7 @@ The purpose of this project is to use a deep learning neural network to create a
 The project follows a typical machine learning workflow, including data preprocessing, model design, training, evaluation, and optimization. The following steps are taken to complete the project: 
 <br> 
 <br>
+
 #### Initial Model
 
 **1. Data Preprocessing**
