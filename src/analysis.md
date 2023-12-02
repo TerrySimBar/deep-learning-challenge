@@ -142,6 +142,7 @@ The second attempt at optimizing the model achieves an accuracy of around 72.4% 
 <br>
 
 **Tuner Results**
+<br>
 <img src="images/tuner_rec.png" alt="Initial Model Evaluation" width="300"/> 
 <br>
 <br>
